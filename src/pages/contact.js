@@ -12,7 +12,7 @@ import GoogleReviewsFeatured from "../components/testimonials/GoogleReviewsFeatu
 export default function Contact() {
   return (
     <div>
-      <SEO title="Contact" />
+      <SEO title="Contact Me" />
       <Header />
       <FormContact />
       <GoogleReviewsFeatured />
