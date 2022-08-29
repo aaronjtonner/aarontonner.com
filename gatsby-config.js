@@ -16,13 +16,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sass`,
-    // sitemap
-    {
-      resolve: "gatsby-plugin-sitemap",
-      options: {
-        exclude: [`/thank-you/`, `/privacy-policy/`],
-      },
-    },
+    `gatsby-plugin-sitemap`,
     // ga
     {
       resolve: `gatsby-plugin-google-analytics`,
